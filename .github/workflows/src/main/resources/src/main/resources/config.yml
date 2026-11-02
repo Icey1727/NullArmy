@@ -1,0 +1,91 @@
+names:
+  length: 24
+  obfuscated: false
+
+patrols:
+  enabled: true
+  interval-seconds: 45
+  group-size: 3
+  max-nearby: 12
+  check-radius: 40
+
+strike:
+  skulls: 40
+  duration-ticks: 100
+  radius: 8
+  height: 60
+  yield: 1.5
+
+portal:
+  delay-ticks: 60
+  default-amount: 8
+
+drops:
+  ender-pearl-max: 2
+  shulker-shell-chance: 0.10
+
+workers:
+  recruit-radius: 64
+  max-radius: 32
+  mine-delay-ticks: 15
+  dig-delay-ticks: 10
+  build-delay-ticks: 4
+  max-minutes: 10
+
+build:
+  max-blocks: 1500
+  materials:
+    main: POLISHED_BLACKSTONE_BRICKS
+    accent: OBSIDIAN
+    floor: BLACKSTONE
+    light: SOUL_LANTERN
+
+coordination:
+  interval-ticks: 10
+  squad-link-distance: 20
+  assault-ratio: 0.7
+  staging-distance: 14
+  archer-distance: 8
+  alert-radius: 64
+  retreat-health: 0.25
+  rally-cooldown-seconds: 20
+
+follow:
+  enabled: true
+  distance: 6
+  teleport-distance: 40
+  cross-world: true
+
+formation:
+  default: ring
+  spacing: 2.2
+
+npc:
+  enabled: true
+  skin:
+    texture: ""
+    signature: ""
+    username: ""
+
+chat:
+  enabled: true
+  require-prefix: true
+  require-totem: false
+  prefixes: ["null", "army", "soldiers", "general"]
+
+lore:
+  shield: true
+  commander-chance: 0.2
+  role-names: true
+  lightning: true
+  dark-sky: true
+  totem-pop:
+    enabled: true
+    cooldown-seconds: 60
+    min-distance: 20
+    max-distance: 40
+
+give:
+  enabled: true
+  max-amount: 2304
+  needs-soldier: true
