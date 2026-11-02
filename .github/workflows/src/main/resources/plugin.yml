@@ -1,0 +1,14 @@
+name: NullArmy
+version: 1.0.0
+main: com.example.nullarmy.NullArmy
+api-version: "1.21"
+description: The NULL army from Unstable Universe
+commands:
+  nullarmy:
+    description: Control the NULL army
+    usage: /nullarmy <spawn|clear|totem|strike|portal|mine|build|attack|standdown|stop|formation|hold|goto|follow|promote|reload>
+    aliases: ["null"]
+    permission: nullarmy.admin
+permissions:
+  nullarmy.admin:
+    default: op
